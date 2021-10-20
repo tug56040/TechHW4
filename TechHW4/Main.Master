@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="TechHW4.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background:beige">
+    <form id="form1" runat="server">
+        <div>
+            <h1 class="text-info col-3 offset-1">This is the Master Page</h1>
+            <div class="row">
+                <a class="col-1 offset-1" href="Default.aspx">Home Page</a>
+                <a class="col-1 offset-1" href="PageTwo.aspx">Page Two</a>
+                <a class="col-1 offset-1" href="PageThree.aspx">Page Three</a>
+                <a class="col-1 offset-1" href="PageFour.aspx">Page Four</a>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
