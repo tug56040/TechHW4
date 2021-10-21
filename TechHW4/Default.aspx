@@ -2,12 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
-    <div>
+    <div class="">
         <br />
-        <a class="row col-6 offset-1 btn-lg btn-outline-dark btn-info" style="text-align:center" href="PageTwo.aspx">Page Two</a>
+        <a class="row col-6 offset-1 btn-lg btn-outline-dark" style="background:aquamarine" href="NewOrder.aspx">Place new Order</a>
         <br />
-        <a class="row col-6 offset-1 btn-lg btn-outline-dark btn-warning" href="PageThree.aspx">Page Three</a>
+        <a class="row col-6 offset-1 btn-lg btn-outline-dark" style="background:red" href="ExistingOrders.aspx">Existing Orders</a>
         <br />
-        <a class="row col-6 offset-1 btn-lg btn-outline-dark" style="background:yellow" href="PageFour.aspx">Page Four</a>
+        <a class="row col-6 offset-1 btn-lg btn-outline-dark text-center" style="background:yellow;" href="WaitlistOrders.aspx">Waitlisted Orders</a>
     </div>
 </asp:Content>
