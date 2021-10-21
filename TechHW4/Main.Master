@@ -12,17 +12,16 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body style="background:beige">
+<body >
+
     <form id="form1" runat="server">
+        <div class="row border border-dark border-2" style="background:brown">
+            <a style="background:beige" class="btn btn-lg border border-dark border-2 col-1" href="Default.aspx"><img class="rounded-float-start img-fluid"src="https://cdn.iconscout.com/icon/free/png-256/home-2326036-1962440.png" /></a>
+            <h1 class="col-4 offset-1 align-bottom">Ruff 'n' Tumble Pet Meds</h1>
+            <img class="col-1 rounded-float-end img-fluid" src="https://i.pinimg.com/originals/fb/15/f0/fb15f07243e81de329a17151300b5e99.png" />
+        </div>
         <div>
-            <h1 class="text-info col-3 offset-1">This is the Master Page</h1>
-            <div class="row">
-                <a class="col-1 offset-1" href="Default.aspx">Home Page</a>
-                <a class="col-1 offset-1" href="PageTwo.aspx">Page Two</a>
-                <a class="col-1 offset-1" href="PageThree.aspx">Page Three</a>
-                <a class="col-1 offset-1" href="PageFour.aspx">Page Four</a>
-            </div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
             </asp:ContentPlaceHolder>
         </div>
     </form>
